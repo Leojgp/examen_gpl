@@ -20,6 +20,7 @@ class SigningScreen extends StatelessWidget {
                 ElevatedButton(
                     onPressed: () {
                        FocusScope.of(context).requestFocus(FocusNode());
+                       Navigator.pushNamed(context, 'listview');
                     },
                     child: SizedBox(
                         width: double.infinity,

@@ -17,6 +17,11 @@ class AppRoutes {
       icon: Icons.house_rounded, 
       name: 'Signing Screen', 
       screen: const SigningScreen()),
+          MenuOption(
+      route: 'listview', 
+      icon: Icons.house_rounded, 
+      name: 'Listview Screen', 
+      screen: ListViewScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes(){
