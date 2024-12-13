@@ -18,7 +18,6 @@ class HomeScreen extends StatelessWidget {
                 height: 30,
               ),
               ElevatedButton(
-                
                 onPressed: () {
                   Navigator.pushNamed(context, 'signing');
                 },
