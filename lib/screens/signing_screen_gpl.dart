@@ -14,9 +14,16 @@ class SigningScreen extends StatelessWidget {
               children: [
                 FlutterLogo(size: 100,),
                 SizedBox(height: 20),
-                CustomTextFormField(hintText: 'Usuario', suffixIcon: Icons.person,obscureText: false,),
-                SizedBox(height: 20),
-                CustomTextFormField(labelText: 'Contraseña',obscureText: true,),
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(children: [
+                  CustomTextFormField(hintText: 'Usuario', suffixIcon: Icons.person,obscureText: false,),
+                  SizedBox(height: 20),
+                  CustomTextFormField(labelText: 'Contraseña',obscureText: true,),
+                  ]
+                  ),
+                ),
+                SizedBox(height: 40,),
                 ElevatedButton(
                     onPressed: () {
                        FocusScope.of(context).requestFocus(FocusNode());

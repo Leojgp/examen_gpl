@@ -24,8 +24,8 @@ class CustomTextFormField extends StatelessWidget {
           suffixIcon: Icon(Icons.person),
           border: OutlineInputBorder(
               borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(10),
-                  bottomRight: Radius.circular(10)))),
+                  topRight: Radius.circular(10),
+                  bottomLeft: Radius.circular(10)))),
     );
   }
 }
