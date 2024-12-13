@@ -26,6 +26,11 @@ class AppRoutes {
         icon: Icons.sports_basketball,
         name: 'Pistas Screen',
         screen: PistasScreen()),
+    MenuOption(
+        route: 'monitores',
+        icon: Icons.sports_basketball,
+        name: 'Monitores Screen',
+        screen: MonitoresScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
